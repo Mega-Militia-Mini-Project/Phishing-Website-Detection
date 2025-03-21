@@ -19,6 +19,7 @@ Phishing websites pose a significant security risk, tricking users into divulgin
 - Multiple classification models are evaluated, including:
   - Decision Tree
   - Random Forest
+  - MultiLayer Perceptron
   - XGBoost
   - Support Vector Machines
 - Preliminary results indicate **promising accuracy**, with further optimizations underway.
