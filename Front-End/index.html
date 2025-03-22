@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing Website Detector</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h1><i class="fas fa-shield-alt"></i> Phishing Website Detector</h1>
+        <p>Enter a website URL below to check if it's safe.</p>
+
+        <div class="input-container">
+            <input type="text" id="urlInput" placeholder="Enter URL here" />
+            <button id="checkButton"><i class="fas fa-search"></i> Check</button>
+        </div>
+
+        <div id="loading" class="loading">Analyzing URL...</div>
+
+        <div id="resultContainer" class="result-container">
+            <h2 id="resultText"></h2>
+            <p id="confidenceScore"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
